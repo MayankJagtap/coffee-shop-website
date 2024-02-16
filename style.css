@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: #fff;s
+  }
+  
+:root {
+  --main-color: #deab5f;
+  --primary-color: #312e2e;
+}
+
+/* Utility Styles */
+
+button{
+    padding: 10px 30px;
+    background:var(--main-color);
+    border:none;
+    cursor: pointer;
+}
+
+body {
+    background: #100e0f;
+  }
+
+  nav{
+    margin: 0 20% 0 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-family: sans-serif;
+    padding-top: 15px;
+
+  }
+
+  li{
+    display: inline;
+    list-style: none;
+  }
+  
+ li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 40px;
+ }
+
+ .header {
+    background: url("./img/pexels-nao-triponez-129207.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    font-family: "Playfair Display SC", serif;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    
+}
+
+.main-headings {
+    position: absolute;
+    top: 7rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+  }
+
+.primary-heading {
+    position: absolute;
+    bottom: 4rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+  }
+
+  .main-btn {
+    position: absolute;
+    bottom: 2rem;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background: transparent;
+    background: var(--main-color);
+    border: none;
+    cursor: pointer;
+    transform: translateY(60px);
+  }
+
+.our-story{
+  /* margin-top: 50px; */
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.story-right h1 {
+  font-size: 70px;
+  margin-top: -100px;
+  
+}
+
+.story-right p{
+  margin-top: 50px;  
+  font-size: 1.5rem;
+}
+.story-right button{
+  margin-top: 50px;
+
+}
+
+.place{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.place-img{
+  width: 400px;
+  height: 400px;
+}
+
+.place-left h1{
+  font-size: 60px;
+  
+}
+.place-left p{
+  font-size: 20px;
+  margin-top: 50px;
+
+}
+
+.place-left button{
+  margin-top: 50px;
+
+}
+
+.place-right{
+  margin-left: 35%;
+}
+
+
+
+.products {
+  margin-top: 5rem;
+}
+
+.title-three {
+  font-size: 4rem;
+  margin-left: 10rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  border: 2px solid #deab5f;
+  padding: 0 20px;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.card-img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -60px;
+}
+
+.img-one {
+  background: url(./img/1.png);
+  background-position: center;
+  background-size: cover;
+}
+.img-two {
+  background: url(img/3.png);
+  background-position: center;
+  background-size: cover;
+}
+.img-three {
+  background: url(./img/4.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.card-title {
+  color: #fff;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+.card .items p {
+  color: #fff;
+  margin: 20px 0;
+  font-family: sans-serif;
+}
+
+
+footer{
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container {
+  margin: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+footer .heading-info {
+  margin-bottom: 20px;
+}
+
+footer p {
+  line-height: 25px;
+}
+
+span {
+  color: #deab5f;
+}
+
+hr {
+  margin-bottom: 20px;
+  border-color: #deab5f;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.para {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
